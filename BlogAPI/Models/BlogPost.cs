@@ -8,7 +8,7 @@ namespace BlogAPI.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(200)]
+        [MaxLength(50)]
         public string Title { get; set; } = null!;
 
         [Required]

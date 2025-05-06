@@ -2,24 +2,33 @@
 
 A simple RESTful API built with .NET 8 for managing blog posts and comments.
 
+## Prerequisites
+
+- .NET SDK 8.0 or higher
+- SQLite (or you can switch to another DB provider)
+
 ## How to Run
 
 1. **Restore dependencies**
    ```
    dotnet restore
    ```
+2. ** To create the migration **
+	```
+	dotnet ef migrations add InitialCreate
+	```
 
-2. **Apply EF Core Migrations (if applicable)**
+3. **Apply EF Core Migrations (if applicable)**
    ```
    dotnet ef database update
    ```
 
-3. **Run the project**
+4. **Run the project**
    ```
    dotnet run
    ```
 
-4. **Open Swagger UI**
+5. **Open Swagger UI**
    Navigate to:
    ```
    https://localhost:5001/swagger
