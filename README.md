@@ -13,7 +13,7 @@ A simple RESTful API built with .NET 8 for managing blog posts and comments.
    ```
    dotnet restore
    ```
-2. ** To create the migration **
+2. **To create the migration**
 	```
 	dotnet ef migrations add InitialCreate
 	```
